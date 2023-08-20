@@ -6,6 +6,12 @@ Well "first experience". What I mean is linux as a daily driver for my laptop.
 
 The basics of using terminal and installing programs are known.
 
+# Todo list
+
+- Make dotfiles folder and available
+- find more useful software
+- program something
+
 # Specs
 
 Distro: Linux Mint (Cinnamon)
