@@ -62,9 +62,10 @@ Installed neovim. I am currently using the vim-plug plugin manager. It's pretty 
 
 ## Basic Programs
 
-1. Discord
-2. YouTube Music
-3. Thunderbird Mail (Preinstalled)
-4. htop (terminal based resource monitor)
+- ~~Discord~~
+- Signal
+- YouTube Music
+- Thunderbird Mail (Preinstalled)
+- htop (terminal based resource monitor)
 
 
