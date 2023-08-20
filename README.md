@@ -28,9 +28,31 @@ Took it because idk why, better than default i guess. Got a few config options. 
 
 I added basics as fonts and opacity not much more.
 
+# Starship
+
+A shell prompt to make the text in the terminal look more fancy
+Took a setup from somebody that looked good(github -> search for filename "starship.toml), changed some stuff and then ran with it.
+
+My config is based on [this guys config](https://github.com/w3samiulazim/garuda-starship.toml/blob/25d882253d24ad76e264363b68755968a03a6455/starship.toml)
+
 ## Vim/NeoVim
 
-Currently still using vim, though planning on switching to neovim the next few days
+~~Currently still using vim, though planning on switching to neovim the next few days~~
+
+Installed neovim. Currently using the vim-plug plugin manager. It's pretty easy to setup.
+
+### Currently Using:
+
+- vim airline
+- nerdtree
+- vim commentary
+- tagbar
+- vim devicons
+- Conuqeror of Completion (coc.nvim)
+
+### Maybe also adding:
+
+- Telescope
 
 ## Basic Programs
 
