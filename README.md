@@ -6,11 +6,23 @@ Well "first experience". What I mean is linux as a daily driver for my laptop.
 
 The basics of using terminal and installing programs are known.
 
-# Todo list
+# Todo in the future
 
-- Make dotfiles folder and available
-- find more useful software
-- program something
+-   [ ] more programming
+-   [ ] look into tiling window manager
+-   [ ] find more useful software
+-   [ ] Make dotfiles folder and available
+-   [ ] learn docker
+
+# Programming languages to look into
+
+-   [ ] Python
+-   [ ] Zig
+-   [ ] lua
+-   [ ] Rust
+-   [ ] Go
+-   [ ] Carbon
+-   [ ] ...
 
 # Specs
 
@@ -55,23 +67,21 @@ Installed neovim. I am currently using the vim-plug plugin manager. It's pretty 
 
 ### Currently Using:
 
-- vim airline
-- nerdtree
-- vim commentary
-- tagbar
-- vim devicons
-- Conuqeror of Completion (coc.nvim)
+-   vim airline
+-   nerdtree
+-   vim commentary
+-   tagbar
+-   vim devicons
+-   Conuqeror of Completion (coc.nvim)
 
 ### Maybe also adding:
 
-- Telescope
+-   Telescope
 
 ## Basic Programs
 
-- ~~Discord~~
-- Signal
-- YouTube Music
-- Thunderbird Mail (Preinstalled)
-- htop (terminal based resource monitor)
-
-
+-   ~~Discord~~
+-   Signal
+-   YouTube Music
+-   Thunderbird Mail (Preinstalled)
+-   htop (terminal based resource monitor)
