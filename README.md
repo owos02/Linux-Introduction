@@ -357,7 +357,7 @@ Here is a small table of replacement possibilities
 | Illustrator    | Inkscape, Vectr, LibreOffice Draw |
 | After Effect   | DaVinci Resole\*, Blender         |
 
-\*DaVinci Resolve includes Blackmagic Fusion which is the After Effect Programm
+DaVinci Resolve includes Blackmagic Fusion which is the After Effect Programm
 
 If you are looking for other Software, you can use this as a copy paste for searching for your Software replacement
 
