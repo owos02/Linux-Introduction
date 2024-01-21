@@ -1,8 +1,8 @@
 # Greetings Traveller
 
-So you came here to get information about linux or other stuff that might be useful to you? Well it _should_ be the right location.
+So you came here to get information about Linux or other stuff that might be useful to you? Well it _should_ be the right location.
 
-Here I will try to cover a good starting portion of whats Important to know, what software might be worthwhile to look into and much more.
+Here I will try to cover a good starting portion of whats Important to know, what Software might be worthwhile to look into and much more.
 
 ## Disclaimer
 
@@ -12,39 +12,41 @@ TODO
 
 Heres a short list of Anchors to quickly travel to your desired location.
 
--   [Greetings Traveller](#greetings-traveller)
-    -   [Disclaimer](#disclaimer)
-    -   [Looking for something ?](#looking-for-something-)
-    -   [Distributions](#distributions)
-    -   [How to Install](#how-to-install)
-        -   [Bootable USB-Device](#bootable-usb-device)
-        -   [Booting into Live-Mode](#booting-into-live-mode)
-            -   [If you know your Motherboard Manufacturer](#if-you-know-your-motherboard-manufacturer)
-            -   [If you do not know your Motherboard Manufacturer](#if-you-do-not-know-your-motherboard-manufacturer)
-        -   [Installation](#installation)
-            -   [**BACK UP YOUR DATA ON WINDOWS FIRST**](#back-up-your-data-on-windows-first)
-            -   [Back in Live-Mode](#back-in-live-mode)
-        -   [Useful Post-Installation Steps \[Linux Mint Focused\]](#useful-post-installation-steps-linux-mint-focused)
-            -   [What are those things I mentioned above](#what-are-those-things-i-mentioned-above)
-                -   [System Snapshots](#system-snapshots)
-                -   [Driver Manager](#driver-manager)
-                -   [Update Manager](#update-manager)
-                -   [Firewall](#firewall)
-    -   [Software](#software)
-        -   [Software Manager \[Linux Mint\]](#software-manager-linux-mint)
-        -   [Terminal](#terminal)
-        -   [Installation through Website Visit](#installation-through-website-visit)
-    -   [How do I troubleshoot things ?](#how-do-i-troubleshoot-things-)
-    -   [Software List or replacement for other Software](#software-list-or-replacement-for-other-software)
-        -   [Gaming](#gaming)
-        -   [Artists](#artists)
-        -   [Office Software](#office-software)
-        -   [General purpose: Windows Applications on Linux](#general-purpose-windows-applications-on-linux)
-        -   [General purpose: Searching for Software replacement](#general-purpose-searching-for-software-replacement)
+- [Greetings Traveller](#greetings-traveller)
+  - [Disclaimer](#disclaimer)
+  - [Looking for something ?](#looking-for-something-)
+  - [Distributions](#distributions)
+  - [How to Install](#how-to-install)
+    - [Bootable USB-Device](#bootable-usb-device)
+    - [Booting into Live-Mode](#booting-into-live-mode)
+      - [If you know your Motherboard Manufacturer](#if-you-know-your-motherboard-manufacturer)
+      - [If you do not know your Motherboard Manufacturer](#if-you-do-not-know-your-motherboard-manufacturer)
+    - [Installation \[Linux Mint example\]](#installation-linux-mint-example)
+      - [**BACK UP YOUR DATA ON WINDOWS FIRST**](#back-up-your-data-on-windows-first)
+      - [Back in Live-Mode](#back-in-live-mode)
+    - [Useful Post-Installation Steps \[Linux Mint Focused\]](#useful-post-installation-steps-linux-mint-focused)
+      - [What are those things I mentioned above](#what-are-those-things-i-mentioned-above)
+        - [System Snapshots](#system-snapshots)
+        - [Driver Manager](#driver-manager)
+        - [Update Manager](#update-manager)
+        - [Firewall](#firewall)
+  - [Software](#software)
+    - [Software Manager \[Linux Mint\]](#software-manager-linux-mint)
+    - [Terminal](#terminal)
+    - [Installation through Website Visit](#installation-through-website-visit)
+  - [How do I troubleshoot things ?](#how-do-i-troubleshoot-things-)
+  - [Software List or replacement for other Software](#software-list-or-replacement-for-other-software)
+    - [Gaming](#gaming)
+      - [NVIDIA Settings](#nvidia-settings)
+    - [Adobe Suit](#adobe-suit)
+    - [Office Software](#office-software)
+  - [General purpose:](#general-purpose)
+    - [Windows Applications on Linux](#windows-applications-on-linux)
+    - [Searching for Software replacement](#searching-for-software-replacement)
 
 ## Distributions
 
-As you might already know there isn't "the one" Linux. There are multiple Versions that exist which differs on the prebundled Software that exists for it.
+As you might already know there isn't "the one" Linux. There are multiple Versions that exist which differs around the prebundled Software that exists for it.
 
 So the thing you are more looking for at the start is "What are my needs?".
 
@@ -52,9 +54,9 @@ If you just want a System that is "plug and play", then look into "Distro for ne
 
 My personal recommendation is [Linux Mint](https://www.linuxmint.com/)
 
-It is the one I am using and it is the one which i assume you to use for the later points. Though I will cover stuff for other Distributions too.
+It is the one I am using and it is the one which I assume you to use for the later points. Though I will cover stuff for other Distributions too.
 
-If you are more into learning than a Daily Driver (Term: Using it for daily activities such as browsing, gaming, document editing, etc...), then you might want to look into more DIY Distros. One example would be [Arch Linux](https://archlinux.org/). It is the most well known Distro for it. There is also a big dedicated community around it with its own wiki called [ArchWiki](https://wiki.archlinux.org/).
+If you are more into learning than a Daily Driver, then you might want to look into more DIY Distros. One example would be [Arch Linux](https://archlinux.org/). It is the most well known Distro for it. There is also a big dedicated community around it with it's own wiki called [ArchWiki](https://wiki.archlinux.org/).
 
 There are of course a lot of other Distributions which are interesting to look at. Just take your time and look into them as your Usage may differ to mine.
 
@@ -77,15 +79,16 @@ You will need the following things:
 
 -   1x **Empty** USB-Flash-Drive with prefferably at least 8GB
 
-It is **Important** that the USB-Flash-Drive is empty. To make it **Bootable** the Stick will be formatted which will **DELETE** everything on it.
+It is **important** that the USB-Flash-Drive is empty. To make it **bootable** the stick will be formatted which will **DELETE** everything on it.
 
-So be sure to back the files up if there are any on it.
+So be sure to back the files up if there are any on it. You can later format the USB-Stick again and then continue to use it normally.
 
 ### Bootable USB-Device
 
-The following two Softwares are the most commonly used ones to flash the ISO file to the usb drive.
+The following two Softwares are the most commonly ones used to flash the ISO file to the USB-Drive.
 
-[balenaEtcher](https://etcher.balena.io/) [rufus](https://rufus.ie/en/)
+- [balenaEtcher](https://etcher.balena.io/) 
+- [rufus](https://rufus.ie/en/)
 
 I recommend balenaEtcher as the interface is easier for beginners.
 
@@ -93,35 +96,35 @@ I recommend balenaEtcher as the interface is easier for beginners.
 2. Select the USB drive that you want to flash
 3. Finally flash it.
 
-After those steps you should have a Bootable USB drive.
+After those steps you should have a Bootable USB-Drive.
 
-Now safely remove the USB drive from your computer. If Windows asks to format the Drive click **NO**.
+Now safely remove the USB-Drive from your computer. If Windows asks to format the Drive click **NO**.
 
 ### Booting into Live-Mode
 
-You have a bootable USB drive, what's next?
+You have a bootable USB-Drive, what's next?
 
 You will need to boot into the Live-Mode of the Distribution that you installed.
 
 There are 2 ways to accomplish that and this depends on what your hardware is.
 
-When your Computer makes a startup, there is often a logo screen wiith some text in the bottom row. You will have to Press the key in that screen.
+When your computer boots, there is often a logo screen with some text in the bottom row. You will have to Press the Key in that screen.
 
 Commonly used Keys for this may be:
 
 `F1` `F12` `Delete`
 
--   Option 1: Boot Device Menu
+- Option 1: Boot Device Menu
 
-Some motherboards have a dedicated Boot Device menu where you can select from which Drive to boot.
+Some motherboards have a dedicated "Boot-Device-Menu" where you can select from which drive to boot.
 
-If that is your method, just select your USB drive and your good to go.
+If that is your method, just select your USB-Drive and your good to go.
 
--   Option2 2: BIOS boot order
+- Option 2: BIOS boot order
 
 This one might be a bit more tricky to navigate if you are new to this but it is not as bad as it looks.
 
-Here are the Steps
+Here are the Steps:
 
 1. Find the "Boot" Settings
 2. Find the Priority Order
@@ -157,13 +160,13 @@ Result:
 
 The results may not be as good as searching directly for the Manufacturer but usually you will find steps that should help you to find what you are looking for.
 
-### Installation
+### Installation [Linux Mint example]
 
 So you made it this far... now the worst step of all, Installation.
 
 Or is it?
 
-If you have installed only Windows up until now you might feel annoyed as the Windows installation Process is time consuming and kind of privacy invasive (im talking about you, Microsoft accounts).
+If you have installed only Windows up until now, you might feel reluctant as the Windows installation process is time consuming and kind of privacy invasive (im talking about you, Microsoft accounts).
 
 Linux on the other hand is simple and fast.
 
@@ -171,31 +174,31 @@ When you are in Live Mode and have decided you want to install the Operating Sys
 
 #### **BACK UP YOUR DATA ON WINDOWS FIRST**
 
-Installing the Operating System will delete everything on your System if you do not make a "Dual Boot"
+Installing the Operating System will delete everything on your System if you do not make a "Dual Boot".
 
 If you preffer to have both Operating Systems available by changing the Boot Device then look up how to Dual Boot it.
 
-It is a bit more complex to set up, and sometimes having Windows on standby for whenever you need might be useful.
+It is a bit more complex to set up, but sometimes having Windows on standby for whenever you need might be useful.
 
-#### Back in Live-Mode
+#### Back in Live-Mode 
 
-Double Click the "Install Linux [Instert Distribution Name]"
+Double Click the "Install Linux Mint"
 
 Then just follow the Installer and you are up and running.
 
 Important things to look out:
 
 -   If you don't know what you are doing: Install "Multimedia Codec's"
--   If you don't do a dual boot: Erase Disk and Install [Distro Name]
--   If you don't know what you are doing: Do not encrypt your Home drive
+-   If you don't do a dual boot: Erase Disk and Install Mint
+-   If you don't know what you are doing: Do not encrypt anything
 
-After following the installer you will shut down your Computer and pull out the USB Drive.
+After following the installer you will Shutdown your System and pull out the USB-Drive.
 
 And then Boot the System up as usual.
 
 If you did everything correct, you should now be in Linux Mint instead of Windows.
 
-If something went wrong please write a message about what didn't work. I want this guide to be as easy, yet correct so that more people can be introduced to the easy world of Linux.
+If something went wrong, please write a message about what didn't work. I want this guide to be as easy, yet correct so that more people can be introduced to the beautiful world of Linux.
 
 ### Useful Post-Installation Steps [Linux Mint Focused]
 
@@ -223,7 +226,7 @@ Driver are Software that allows the Computer to interact with the Hardware. Usua
 
 One of those is NVIDIA Graphics Cards.
 
-The Driver Manager will give you the ption of choosing Multiple drivers.
+The Driver Manager will give you the option of choosing Multiple drivers.
 
 As of right now the Proprietary Drivers of NVIDIA are the recommended ones. And thus should be used.
 
@@ -233,7 +236,7 @@ Performance not good enough with NVIDA? Look under at the Gaming category.
 
 ##### Update Manager
 
-Well that's the thing where you will Download updates. If you see a Shield in the Bottom right List with an Orage Dot, it means there are Updates.
+Well that's the thing where you will Download updates. If you see a Shield in the bottom right list next to the Time with an Orange Dot, it means there are Updates.
 
 Updating in Linux only rarely Requires a Reboot. Just do them when you see them. If there is one that Requires a reboot, well it is not Windows, it will just wait until you decide to Reboot.
 
@@ -247,7 +250,7 @@ All you do is activate the Slider right of the "Status" text. That just activate
 
 Now that you completed an install of Linux and made basic configurations to your system, you of course want to install Software.
 
-And there are quite a few ways of installing Software. But it is **a lot** safer than Windows
+And there are quite a few ways of installing Software. But it is **a lot** safer than Windows.
 
 ### Software Manager [Linux Mint]
 
@@ -255,7 +258,7 @@ The easiest way of installing is through the Software Manager. It is kind of lik
 
 You can either Install things as System Package, or as Flatpak.
 
-I personally recommend Flatpak as a lot of the software has more recent versions in the Flatpak format but it is more Space hungry than a System Package.
+I personally recommend Flatpak as a lot of the Software has more recent versions in the Flatpak format but it is more Space hungry than a System Package.
 
 ### Terminal
 
@@ -275,7 +278,7 @@ Even if you don't need them it is still good to familiarize yourself with them a
 
 ### Installation through Website Visit
 
-You should always look at the Website to see how to install an Application. But the 2 Ways above should be your get go for the actuall installation. But sometimes the website may be the only way of installing and then you should check that you are installing from a trustworthy site.
+You should always look at the Website to see how to install an Application. But the 2 ways above should be your get go for the actual installation. But sometimes the Website may be the only way of installing and then you should check that you are installing from a trustworthy site.
 
 ## How do I troubleshoot things ?
 
@@ -304,11 +307,11 @@ Software Example: EasyEffect
 Install Type: Flatpak
 ```
 
-As Flatpak is a type of bundle which is often System unrelated you should first look for (Our example case):
+As Flatpak is a type of bundle which is often System unrelated you should first look for (our example case):
 
 `flatpak Easyeffect not launching on startup`
 
-If the information doesnt help, you should then try to look if it is a Distribution Problem and search for
+If the information doesnt help, you should then try to look if it is a Distribution Problem and search for:
 
 `Linux Mint Easyeffect not launching on startup`
 
@@ -322,7 +325,7 @@ Sadly at the current point not all Software is available on Linux as on Windows.
 
 There are often Alternatives but those are sometimes not on par with the Software that is on Windows and it would require you to learn a new Software.
 
-I will try to keep the list Updated and accept recommendations.
+I will try to keep the list updated and accept recommendations.
 
 ### Gaming
 
@@ -342,24 +345,34 @@ But generally, if something doesnt launch after a few minutes, cancel the launch
 
 If that doesn't work, you can try a Software called [Lutris](https://lutris.net/)
 
-Lutris is a Software which uses Installscripts made by the Community to give you the highest probability of the game just Running when you press launch. You can also connect other Accounts to it like GOG or Steam though I personally haved tried those features yet.
+Lutris is a Software which uses Installscripts made by the Community to give you the highest probability of the game just running when you press launch. You can also connect other Accounts to it like GOG or Steam though I personally haved tried those features yet.
 
-### Artists
+#### NVIDIA Settings 
+
+If you have NVIDIA drivers installed, open "NVIDIA X Server Settings"
+
+1. Click on "X Server Display Configuration"
+2. Press the Advanced Button
+3. Enable "Force Composition of Pipeline"
+4. Enable "Force Full Composition of Pipeline"
+
+
+### Adobe Suit
 
 The Adobe Suite currently is nonexistant in Linux. There are replacements for it but they will be different.
 
-Here is a small table of replacement possibilities
+Here is a small table of replacement possibilities:
 
 | Adobe Software | Replacement Options               |
 | -------------- | --------------------------------- |
 | Photoshop      | Krita, Gimp, Photopea             |
 | Premiere Pro   | DaVinci Resolve, Kdenlive         |
 | Illustrator    | Inkscape, Vectr, LibreOffice Draw |
-| After Effect   | DaVinci Resole\*, Blender         |
+| After Effect   | DaVinci Resole, Blender           |
 
-DaVinci Resolve includes Blackmagic Fusion which is the After Effect Programm
+*DaVinci Resolve includes Blackmagic Fusion which is the After Effect Programm.
 
-If you are looking for other Software, you can use this as a copy paste for searching for your Software replacement
+If you are looking for other Software, you can use this as a copy paste for searching for your Software replacement:
 
 `linux [Name] replacement`
 
@@ -371,7 +384,11 @@ Microsoft Office
 
 You can try the Browser Version. If that doesnt work you can try to use Libre Office which often comes preinstalled on Systems.
 
-### General purpose: Windows Applications on Linux
+If not try the "General Purpose" section to install Windows Applications on Linux
+
+## General purpose:
+
+### Windows Applications on Linux
 
 If that still isn't good enough you might want to Look into [Bottles](https://www.youtube.com/watch?v=q9fZpkBNKRc).
 
@@ -379,7 +396,7 @@ Bottles is a Software that can run Windows applications and it is in the Softwar
 
 A good introduction into Bottles is a Video from [Michael Horn - Linux Gaming For Beginners: Run Any Game on Steam Deck/PC](https://www.youtube.com/watch?v=q9fZpkBNKRc). While it is a video focused about gaming, it the steps should be the same for any Windows application.
 
-### General purpose: Searching for Software replacement
+### Searching for Software replacement
 
 If you are looking for other Software, you can use this as a copy paste for searching for your Software replacement
 
