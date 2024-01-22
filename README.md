@@ -6,7 +6,9 @@ Here I will try to cover a good starting portion of whats important to know, wha
 
 ## Disclaimer
 
-TODO
+There is no affiliation to any of the projects, software or distribution which were mentioned inside of this guide.
+
+Everything is based on my personal experience and preference about the software mentioned.
 
 ## Looking for something ?
 
