@@ -4,57 +4,57 @@ So you came here to get information about Linux or other stuff that might be use
 
 Here I will try to cover a good starting portion of whats important to know, what software might be worthwhile to look into and much more.
 
-## Disclaimer
+# Disclaimer
 
 There is no affiliation to any of the projects, software or distribution which were mentioned inside of this guide.
 
 Everything is based on my personal experience and preference about the software mentioned.
 
-## Looking for something ?
+# Looking for something ?
 
 Heres a short list of anchors to quickly travel to your desired location.
 
 - [Greetings Traveller](#greetings-traveller)
-  - [Disclaimer](#disclaimer)
-  - [Looking for something ?](#looking-for-something-)
-  - [Distributions](#distributions)
-  - [How to Install](#how-to-install)
-    - [Bootable USB-Drive](#bootable-usb-drive)
-    - [Booting into Live-Mode](#booting-into-live-mode)
-      - [If you know your Motherboard Manufacturer](#if-you-know-your-motherboard-manufacturer)
-      - [If you do not know your Motherboard Manufacturer](#if-you-do-not-know-your-motherboard-manufacturer)
-    - [Installation \[Linux Mint Example\]](#installation-linux-mint-example)
-      - [**BACK UP YOUR DATA ON WINDOWS FIRST**](#back-up-your-data-on-windows-first)
-      - [Back in Live-Mode](#back-in-live-mode)
-    - [Useful Post-Installation Steps \[Linux Mint Focused\]](#useful-post-installation-steps-linux-mint-focused)
-      - [What are those things I mentioned above?](#what-are-those-things-i-mentioned-above)
-        - [System Snapshots](#system-snapshots)
-        - [Driver Manager](#driver-manager)
-        - [Update Manager](#update-manager)
-        - [Firewall](#firewall)
-    - [Further Customization](#further-customization)
-  - [Software](#software)
-    - [Software Manager \[Linux Mint\]](#software-manager-linux-mint)
-    - [Terminal](#terminal)
-    - [Installation through Website Visit](#installation-through-website-visit)
-  - [How do I troubleshoot things ?](#how-do-i-troubleshoot-things-)
-  - [Software List or Replacement for other Software](#software-list-or-replacement-for-other-software)
-    - [Gaming](#gaming)
-      - [Steam](#steam)
-      - [Epic Games Launcher, GOG \& Prime Gaming](#epic-games-launcher-gog--prime-gaming)
-      - [Check game compatibility](#check-game-compatibility)
-      - [Lutris](#lutris)
-      - [NVIDIA Settings](#nvidia-settings)
-    - [Adobe Suit](#adobe-suit)
-    - [Microsoft Office Suite](#microsoft-office-suite)
-    - [Audio Equalizer](#audio-equalizer)
-  - [General purpose:](#general-purpose)
-    - [Windows Applications on Linux](#windows-applications-on-linux)
-    - [Searching for Software replacement](#searching-for-software-replacement)
-    - [Issues](#issues)
-      - [Desktop Applications suddenly lagging](#desktop-applications-suddenly-lagging)
+- [Disclaimer](#disclaimer)
+- [Looking for something ?](#looking-for-something-)
+- [Distributions](#distributions)
+- [How to Install](#how-to-install)
+  - [Bootable USB-Drive](#bootable-usb-drive)
+  - [Booting into Live-Mode](#booting-into-live-mode)
+    - [If you know your Motherboard Manufacturer](#if-you-know-your-motherboard-manufacturer)
+    - [If you do not know your Motherboard Manufacturer](#if-you-do-not-know-your-motherboard-manufacturer)
+  - [Installation \[Linux Mint Example\]](#installation-linux-mint-example)
+    - [**BACK UP YOUR DATA ON WINDOWS FIRST**](#back-up-your-data-on-windows-first)
+    - [Back in Live-Mode](#back-in-live-mode)
+  - [Useful Post-Installation Steps \[Linux Mint Focused\]](#useful-post-installation-steps-linux-mint-focused)
+    - [What are those things I mentioned above?](#what-are-those-things-i-mentioned-above)
+      - [System Snapshots](#system-snapshots)
+      - [Driver Manager](#driver-manager)
+      - [Update Manager](#update-manager)
+      - [Firewall](#firewall)
+  - [Further Customization](#further-customization)
+- [Software](#software)
+  - [Software Manager \[Linux Mint\]](#software-manager-linux-mint)
+  - [Terminal](#terminal)
+  - [Installation through Website Visit](#installation-through-website-visit)
+- [How do I troubleshoot things ?](#how-do-i-troubleshoot-things-)
+- [Software List or Replacement for other Software](#software-list-or-replacement-for-other-software)
+  - [Gaming](#gaming)
+    - [Steam](#steam)
+    - [Epic Games Launcher, GOG \& Prime Gaming](#epic-games-launcher-gog--prime-gaming)
+    - [Check game compatibility](#check-game-compatibility)
+    - [Lutris](#lutris)
+    - [NVIDIA Settings](#nvidia-settings)
+  - [Adobe Suit](#adobe-suit)
+  - [Microsoft Office Suite](#microsoft-office-suite)
+  - [Audio Equalizer](#audio-equalizer)
+- [General purpose:](#general-purpose)
+  - [Windows Applications on Linux](#windows-applications-on-linux)
+  - [Searching for Software replacement](#searching-for-software-replacement)
+  - [Issues](#issues)
+    - [Desktop Applications suddenly lagging](#desktop-applications-suddenly-lagging)
 
-## Distributions
+# Distributions
 
 As you might already know there isn't _the one_ Linux. There are multiple versions that exist which differs around the prebundled software that exists for it.
 
@@ -76,7 +76,7 @@ But as a general rule remember
 
 Tip: If you are unsure about what you want, then i recommend to test the distributions inside a Virtual Machine.
 
-## How to Install
+# How to Install
 
 So you found your distribution which you want and downloaded the ISO file for it.
 
@@ -95,7 +95,7 @@ You will need the following things:
 
 It is **important** that the USB-Drive is empty. To make it **bootable** the USB-Drive will be formatted which will **DELETE EVERYTHING** on it. So be sure to back the files up if there are any on it. You can later format the USB-Drive again and then continue to use it normally.
 
-### Bootable USB-Drive
+## Bootable USB-Drive
 
 The following two softwares are well known for flashing the ISO file to a USB-Drive.
 
@@ -112,7 +112,7 @@ After those steps you should have a bootable USB-Drive.
 
 Now safely remove the USB-Drive from your computer. If Windows asks to format the drive click **NO**.
 
-### Booting into Live-Mode
+## Booting into Live-Mode
 
 You have a bootable USB-Drive.
 
@@ -145,7 +145,7 @@ As the BIOS is different for every motherboard it sometimes isn't as straight fo
 
 Here are some tips that might help you
 
-#### If you know your Motherboard Manufacturer
+### If you know your Motherboard Manufacturer
 
 Search for the name of the manufacturer.
 
@@ -156,7 +156,7 @@ Result:
     [How to change boot order? - msi.com](https://us.msi.com/support/technical_details/DT_Boot_Priority)
 ```
 
-#### If you do not know your Motherboard Manufacturer
+### If you do not know your Motherboard Manufacturer
 
 Search for your device model.
 
@@ -170,7 +170,7 @@ Result:
 
 The results may not be as good as searching directly for the manufacturer but usually you will find steps that should help you to find what you are looking for.
 
-### Installation [Linux Mint Example]
+## Installation [Linux Mint Example]
 
 So you made it this far... now the worst step of all, installation.
 
@@ -182,13 +182,13 @@ Linux on the other hand is simple and fast.
 
 When you are in Live-Mode and have decided you want to install the Operating System, the first step is:
 
-#### **BACK UP YOUR DATA ON WINDOWS FIRST**
+### **BACK UP YOUR DATA ON WINDOWS FIRST**
 
 Installing the Operating System will delete everything on your system if you do not make a "dual boot".
 
 If you preffer to have both Operating Systems available by changing the boot device then look up how to dual boot it. It is a bit more complex to set up, but sometimes having Windows on standby for whenever you need might be useful.
 
-#### Back in Live-Mode
+### Back in Live-Mode
 
 Double click "Install Linux Mint".
 
@@ -206,7 +206,7 @@ If you did everything correct, you should now be in Linux Mint instead of Window
 
 If something went wrong, please start a discussion about what didn't work. I want this guide to be as easy yet correct so that more people can be introduced to the beautiful World of Linux.
 
-### Useful Post-Installation Steps [Linux Mint Focused]
+## Useful Post-Installation Steps [Linux Mint Focused]
 
 So when you boot into the System there should come a "Welcome Screen" if you have chosen to use Linux Mint.
 
@@ -220,13 +220,13 @@ Heres a non finished list of things I personally recommend (Read further down fo
 -   System Settings
 -   Firewall
 
-#### What are those things I mentioned above?
+### What are those things I mentioned above?
 
-##### System Snapshots
+#### System Snapshots
 
 This is a feature which will save your system settings. If you break something this will help you restore your system to a previous state where it is not broken.
 
-##### Driver Manager
+#### Driver Manager
 
 Driver are software that allows the computer to interact with the hardware. Usually almost all common devices are supported out of the box, but there may be exceptions to that.
 
@@ -234,17 +234,17 @@ One of those is NVIDIA graphics cards. The Driver Manager will give you the opti
 
 Performance not good enough with NVIDA? [Click here](#nvidia-settings)
 
-##### Update Manager
+#### Update Manager
 
 Well that's the thing where you will download updates. If you see a shield in the bottom right list next to the time with an orange dot, it means there are updates.
 
 Updating in Linux only rarely requires a reboot. Just do them when you see them. If there is one that requires a reboot, well it is not Windows, it will just wait until you decide to reboot.
 
-##### Firewall
+#### Firewall
 
 Now this one might sound scary, but don't worry. All you do is activate the slider right of the "Status" text. That just activates the firewall.
 
-### Further Customization
+## Further Customization
 
 Finding out the name of some things to customize can be quite difficult. So here is a short list of names of components and what they are.
 
@@ -255,13 +255,13 @@ Finding out the name of some things to customize can be quite difficult. So here
 | Desklets   | The mini applications that were often seen on Windows 7 Desktops like clocks or notes |
 | Extensions | General Desktop Extensions. Includes Window effects, Panel transparancy and much more |
 
-## Software
+# Software
 
 Now that you completed an install of Linux and made basic configurations to your system, you of course want to install software.
 
 And there are quite a few ways of installing software. But it is **a lot** safer than Windows.
 
-### Software Manager [Linux Mint]
+## Software Manager [Linux Mint]
 
 The easiest way of installing is through the Software Manager. It is kind of like the Google Play Store just that it really isn't a store, everything there is free and safe to download as they are rigorously maintained (though obviously you should not install anything that you don't know).
 
@@ -271,7 +271,7 @@ I personally recommend Flatpak as a lot of the Software has more recent versions
 
 But going into details would be to big for this guide.
 
-### Terminal
+## Terminal
 
 The all time classic. While everything can be done with the terminal, on "Beginner Friendly" distributions, there are other ways of installing.
 
@@ -283,11 +283,11 @@ Depending on your distribution you will have a different command for installing 
 
 Even if you don't need them it is still good to familiarize yourself with them as sometimes this might be the only way of installation.
 
-### Installation through Website Visit
+## Installation through Website Visit
 
 You should always look at the website to see how to install an application. But the 2 ways above should be your get go for the actual installation. But sometimes the website may be the only way of installing and then you should check that you are installing from a **trustworthy site**.
 
-## How do I troubleshoot things ?
+# How do I troubleshoot things ?
 
 Get into the mentality of searching specificly.
 
@@ -329,7 +329,7 @@ Usually after those 2 most of the problems will be solved. But sometimes it just
 
 I hope this short example has helped you for learning how to generally troubleshoot, feel free to submit more examples or improvements on how to trouble shoot things.
 
-## Software List or Replacement for other Software
+# Software List or Replacement for other Software
 
 Sadly at the current point not all software is available on Linux as it is on Windows.
 
@@ -337,13 +337,13 @@ There are often alternatives but those are sometimes not on par with the softwar
 
 I will try to keep the list updated and accept recommendations.
 
-### Gaming
+## Gaming
 
-#### Steam
+### Steam
 
 Of course you can just download Steam. Generally it is good to always check out if your games work on Linux though most stuff without Anti-Cheat should just work.
 
-#### Epic Games Launcher, GOG & Prime Gaming
+### Epic Games Launcher, GOG & Prime Gaming
 
 There is a neat FOSS application that combines all three programs into one.
 
@@ -351,7 +351,7 @@ There is a neat FOSS application that combines all three programs into one.
 
 If you play games through Epic Games it is a good alternative as the Epic Games Launcher doesn't exist for Linux.
 
-#### Check game compatibility
+### Check game compatibility
 
 A good site to check for this is [ProtonDB](https://www.protondb.com/)
 
@@ -367,11 +367,11 @@ But generally, if something doesnt launch after a few minutes, cancel the launch
 
 If that doesn't work, you can try a software called Lutris.
 
-#### Lutris
+### Lutris
 
 [Lutris](https://lutris.net/) is a software which uses installscripts made by the community to give you the highest probability of the game just running when you press launch. You can also connect other accounts to it like GOG or Steam though I personally haved tried those features yet.
 
-#### NVIDIA Settings
+### NVIDIA Settings
 
 If you have NVIDIA drivers installed, open "NVIDIA X Server Settings"
 
@@ -380,7 +380,7 @@ If you have NVIDIA drivers installed, open "NVIDIA X Server Settings"
 3. Enable "Force Composition of Pipeline"
 4. Enable "Force Full Composition of Pipeline"
 
-### Adobe Suit
+## Adobe Suit
 
 The Adobe Suite currently is nonexistant in Linux. There are replacements for it but they will be different.
 
@@ -401,13 +401,13 @@ If you are looking for other software, you can use this as a copy paste for sear
 
 Generally you will find a good list of replacement.
 
-### Microsoft Office Suite
+## Microsoft Office Suite
 
 You can try the browser version. If that doesn't work you can try to use Libre Office which often comes preinstalled on systems.
 
 If not try the "General Purpose" section to install Windows applications on Linux.
 
-### Audio Equalizer
+## Audio Equalizer
 
 Find out which audio server you are running by executing this command in the terminal
 
@@ -419,9 +419,9 @@ If you are using **PulseAudio** then use PulseEffects. Though it is recommended 
 
 For Pipewire **(Yes that includes if it says `PulseAudio (on PipeWire 0.X.XX)`)** you should use EasyEffects.
 
-## General purpose:
+# General purpose:
 
-### Windows Applications on Linux
+## Windows Applications on Linux
 
 If the Linux alternatives still aren't good enough, you might want to look into [Bottles](https://usebottles.com/).
 
@@ -429,7 +429,7 @@ Bottles is a software that can run Windows applications and it is available insi
 
 A good introduction into Bottles is a video from [Michael Horn - Linux Gaming For Beginners: Run Any Game on Steam Deck/PC](https://www.youtube.com/watch?v=q9fZpkBNKRc). While it is a video focused about gaming, it the steps should be the same for any Windows application.
 
-### Searching for Software replacement
+## Searching for Software replacement
 
 If you are looking for other software, you can use this as a copy paste for searching for your software replacement.
 
@@ -437,9 +437,9 @@ If you are looking for other software, you can use this as a copy paste for sear
 
 Generally you will find a list of replacement.
 
-### Issues
+## Issues
 
-#### Desktop Applications suddenly lagging
+### Desktop Applications suddenly lagging
 
 Disable Discord hardware acceleration.
 
