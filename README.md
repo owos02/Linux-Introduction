@@ -190,7 +190,7 @@ If you preffer to have both Operating Systems available by changing the boot dev
 
 #### Back in Live-Mode
 
-Double click the "Install Linux Mint"
+Double click "Install Linux Mint".
 
 Then just follow the Installer and you are up and running.
 
@@ -200,9 +200,7 @@ Important things to look out:
 -   If you don't do a dual boot: Erase Disk and Install Mint
 -   If you don't know what you are doing: Do not encrypt anything
 
-After following the installer you will shutdown your system and pull out the USB-Drive. On linux mint there will be a screen that tells you to pull out the USB-Drive.
-
-And then boot the system up as usual.
+After following the installer you will shutdown your system and pull out the USB-Drive. On Linux mint there will be a screen that tells you to pull out the USB-Drive. And then boot the system up as usual.
 
 If you did everything correct, you should now be in Linux Mint instead of Windows.
 
@@ -232,13 +230,7 @@ This is a feature which will save your system settings. If you break something t
 
 Driver are software that allows the computer to interact with the hardware. Usually almost all common devices are supported out of the box, but there may be exceptions to that.
 
-One of those is NVIDIA graphics cards.
-
-The Driver Manager will give you the option of choosing multiple drivers.
-
-As of right now the proprietary drivers of NVIDIA are the recommended ones. And thus should be used.
-
-This might change at one point in the future. If you are not [FOSS(Free and Open Source Software)](https://itsfoss.com/what-is-foss/) focused, taking the proprietary ones is not an issue.
+One of those is NVIDIA graphics cards. The Driver Manager will give you the option of choosing multiple drivers. As of right now the proprietary drivers of NVIDIA are the recommended ones. And thus should be used. This might change at one point in the future. If you are not [FOSS(Free and Open Source Software)](https://itsfoss.com/what-is-foss/) focused, taking the proprietary ones is not an issue.
 
 Performance not good enough with NVIDA? [Click here](#nvidia-settings)
 
@@ -250,9 +242,7 @@ Updating in Linux only rarely requires a reboot. Just do them when you see them.
 
 ##### Firewall
 
-Now this one might sound scary, but don't worry.
-
-All you do is activate the slider right of the "Status" text. That just activates the firewall.
+Now this one might sound scary, but don't worry. All you do is activate the slider right of the "Status" text. That just activates the firewall.
 
 ### Further Customization
 
@@ -289,11 +279,7 @@ Still here are some information about it.
 
 Depending on your distribution you will have a different command for installing things.
 
-```
-apt
-dnf
-pacman
-```
+`apt` `dnf` `pacman`
 
 Even if you don't need them it is still good to familiarize yourself with them as sometimes this might be the only way of installation.
 
@@ -321,7 +307,7 @@ If you get an error message, perfect. Most likely people have had this issue too
 
 If there is no error message or you didn't do something wrong then follow the general format. It looks like this:
 
-`linux [insert distribution name OR the install type] problem short yet specific`
+`linux [insert distribution name OR the install type] [problem short yet specific]`
 
 Let's say you have a software that you want to start when the computer boots. There is a option for "Start Application on Boot" which you activated and it doesn't work.
 
@@ -454,8 +440,6 @@ Generally you will find a list of replacement.
 ### Issues
 
 #### Desktop Applications suddenly lagging
-
-[Personal problem I had]
 
 Disable Discord hardware acceleration.
 
