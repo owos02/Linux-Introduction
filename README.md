@@ -27,11 +27,12 @@ Heres a short list of anchors to quickly travel to your desired location.
       - [**BACK UP YOUR DATA ON WINDOWS FIRST**](#back-up-your-data-on-windows-first)
       - [Back in Live-Mode](#back-in-live-mode)
     - [Useful Post-Installation Steps \[Linux Mint Focused\]](#useful-post-installation-steps-linux-mint-focused)
-      - [What are those things I mentioned above](#what-are-those-things-i-mentioned-above)
+      - [What are those things I mentioned above?](#what-are-those-things-i-mentioned-above)
         - [System Snapshots](#system-snapshots)
         - [Driver Manager](#driver-manager)
         - [Update Manager](#update-manager)
         - [Firewall](#firewall)
+    - [Further Customization](#further-customization)
   - [Software](#software)
     - [Software Manager \[Linux Mint\]](#software-manager-linux-mint)
     - [Terminal](#terminal)
@@ -39,20 +40,27 @@ Heres a short list of anchors to quickly travel to your desired location.
   - [How do I troubleshoot things ?](#how-do-i-troubleshoot-things-)
   - [Software List or Replacement for other Software](#software-list-or-replacement-for-other-software)
     - [Gaming](#gaming)
+      - [Steam](#steam)
+      - [Epic Games Launcher, GOG \& Prime Gaming](#epic-games-launcher-gog--prime-gaming)
+      - [Check game compatibility](#check-game-compatibility)
+      - [Lutris](#lutris)
       - [NVIDIA Settings](#nvidia-settings)
     - [Adobe Suit](#adobe-suit)
     - [Microsoft Office Suite](#microsoft-office-suite)
+    - [Audio Equalizer](#audio-equalizer)
   - [General purpose:](#general-purpose)
     - [Windows Applications on Linux](#windows-applications-on-linux)
     - [Searching for Software replacement](#searching-for-software-replacement)
+    - [Issues](#issues)
+      - [Desktop Applications suddenly lagging](#desktop-applications-suddenly-lagging)
 
 ## Distributions
 
-As you might already know there isn't *the one* Linux. There are multiple versions that exist which differs around the prebundled software that exists for it.
+As you might already know there isn't _the one_ Linux. There are multiple versions that exist which differs around the prebundled software that exists for it.
 
-So the thing you are more looking for at the start is: ***What are my needs?***
+So the thing you are more looking for at the start is: **_What are my needs?_**
 
-If you just want a system that is *plug and play*, then look into "Distro for new Users" as those are the **allrounder** with close to nothing you need to install yourself to make it just work.
+If you just want a system that is _plug and play_, then look into "Distro for new Users" as those are the **allrounder** with close to nothing you need to install yourself to make it just work.
 
 My **personal recommendation** is [Linux Mint](https://www.linuxmint.com/)
 
@@ -70,9 +78,9 @@ Tip: If you are unsure about what you want, then i recommend to test the distrib
 
 ## How to Install
 
-So you found your distribution which you want and downloaded the ISO file for it. 
+So you found your distribution which you want and downloaded the ISO file for it.
 
-*Now what?*
+_Now what?_
 
 In this section we will go over the following steps:
 
@@ -91,8 +99,8 @@ It is **important** that the USB-Drive is empty. To make it **bootable** the USB
 
 The following two softwares are well known for flashing the ISO file to a USB-Drive.
 
-- [balenaEtcher](https://etcher.balena.io/) 
-- [rufus](https://rufus.ie/en/)
+-   [balenaEtcher](https://etcher.balena.io/)
+-   [rufus](https://rufus.ie/en/)
 
 I recommend balenaEtcher as the interface is easier for beginners.
 
@@ -116,13 +124,13 @@ Commonly used keys for this may be:
 
 `F1` `F12` `Delete`
 
-- Option 1: Boot Device Menu
+-   Option 1: Boot Device Menu
 
 Some motherboards have a dedicated "Boot-Device-Menu" where you can select which drive to boot from.
 
 If that is your method, just select your USB-Drive and your good to go.
 
-- Option 2: BIOS Boot Order
+-   Option 2: BIOS Boot Order
 
 This one might be a bit more tricky to navigate if you are new to this but it is not as bad as it looks.
 
@@ -166,7 +174,7 @@ The results may not be as good as searching directly for the manufacturer but us
 
 So you made it this far... now the worst step of all, installation.
 
-*Or is it?*
+_Or is it?_
 
 If you have installed only Windows up until now, you might feel reluctant as the Windows installation process is time consuming and kind of privacy invasive (I'm talking about you, Microsoft accounts).
 
@@ -180,7 +188,7 @@ Installing the Operating System will delete everything on your system if you do 
 
 If you preffer to have both Operating Systems available by changing the boot device then look up how to dual boot it. It is a bit more complex to set up, but sometimes having Windows on standby for whenever you need might be useful.
 
-#### Back in Live-Mode 
+#### Back in Live-Mode
 
 Double click the "Install Linux Mint"
 
@@ -214,7 +222,7 @@ Heres a non finished list of things I personally recommend (Read further down fo
 -   System Settings
 -   Firewall
 
-#### What are those things I mentioned above
+#### What are those things I mentioned above?
 
 ##### System Snapshots
 
@@ -245,6 +253,17 @@ Updating in Linux only rarely requires a reboot. Just do them when you see them.
 Now this one might sound scary, but don't worry.
 
 All you do is activate the slider right of the "Status" text. That just activates the firewall.
+
+### Further Customization
+
+Finding out the name of some things to customize can be quite difficult. So here is a short list of names of components and what they are.
+
+| Name       | Description                                                                           |
+| ---------- | ------------------------------------------------------------------------------------- |
+| Actions    | It is the Linux equivalent of the Windows Context Menu (right-click window actions)   |
+| Applets    | Used to customize the panel (equivalent of Windows Taskbar)                           |
+| Desklets   | The mini applications that were often seen on Windows 7 Desktops like clocks or notes |
+| Extensions | General Desktop Extensions. Includes Window effects, Panel transparancy and much more |
 
 ## Software
 
@@ -334,7 +353,19 @@ I will try to keep the list updated and accept recommendations.
 
 ### Gaming
 
+#### Steam
+
 Of course you can just download Steam. Generally it is good to always check out if your games work on Linux though most stuff without Anti-Cheat should just work.
+
+#### Epic Games Launcher, GOG & Prime Gaming
+
+There is a neat FOSS application that combines all three programs into one.
+
+[Heroic Games Launcher](https://heroicgameslauncher.com/) let's you access the stores of all 3 applications, install and launch the games, shows Proton and Steamdeck compatibility tier per game and more. It is also a lot faster than the Epic Games Launcher.
+
+If you play games through Epic Games it is a good alternative as the Epic Games Launcher doesn't exist for Linux.
+
+#### Check game compatibility
 
 A good site to check for this is [ProtonDB](https://www.protondb.com/)
 
@@ -348,11 +379,13 @@ But generally, if something doesnt launch after a few minutes, cancel the launch
 4. Enable "Force the use of specific Steam Play compatibility tool"
 5. Try to launch the game again
 
-If that doesn't work, you can try a software called [Lutris](https://lutris.net/)
+If that doesn't work, you can try a software called Lutris.
 
-Lutris is a software which uses installscripts made by the community to give you the highest probability of the game just running when you press launch. You can also connect other accounts to it like GOG or Steam though I personally haved tried those features yet.
+#### Lutris
 
-#### NVIDIA Settings 
+[Lutris](https://lutris.net/) is a software which uses installscripts made by the community to give you the highest probability of the game just running when you press launch. You can also connect other accounts to it like GOG or Steam though I personally haved tried those features yet.
+
+#### NVIDIA Settings
 
 If you have NVIDIA drivers installed, open "NVIDIA X Server Settings"
 
@@ -360,7 +393,6 @@ If you have NVIDIA drivers installed, open "NVIDIA X Server Settings"
 2. Press the advanced button
 3. Enable "Force Composition of Pipeline"
 4. Enable "Force Full Composition of Pipeline"
-
 
 ### Adobe Suit
 
@@ -389,6 +421,18 @@ You can try the browser version. If that doesn't work you can try to use Libre O
 
 If not try the "General Purpose" section to install Windows applications on Linux.
 
+### Audio Equalizer
+
+Find out which audio server you are running by executing this command in the terminal
+
+`pactl info | grep "Server Name"`
+
+First of all no matter which program you use, **use the flatpak version** if you are on Linux Mint. The System Packages are outdated.
+
+If you are using **PulseAudio** then use PulseEffects. Though it is recommended to upgrade to Pipewire as PulseEffects development stopped because the developers swapped from PulseAudio to Pipewire and now develop EasyEffects.
+
+For Pipewire **(Yes that includes if it says `PulseAudio (on PipeWire 0.X.XX)`)** you should use EasyEffects.
+
 ## General purpose:
 
 ### Windows Applications on Linux
@@ -406,3 +450,13 @@ If you are looking for other software, you can use this as a copy paste for sear
 `linux [software name] replacement`
 
 Generally you will find a list of replacement.
+
+### Issues
+
+#### Desktop Applications suddenly lagging
+
+[Personal problem I had]
+
+Disable Discord hardware acceleration.
+
+Linux Mint: Switch themes back to non 3rd party themes.
