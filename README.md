@@ -45,7 +45,7 @@ Heres a short list of anchors to quickly travel to your desired location.
     - [Check game compatibility](#check-game-compatibility)
     - [Lutris](#lutris)
     - [NVIDIA Settings](#nvidia-settings)
-  - [Adobe Suit](#adobe-suit)
+  - [Adobe Suite](#adobe-suite)
   - [Microsoft Office Suite](#microsoft-office-suite)
   - [Audio Equalizer](#audio-equalizer)
 - [General purpose:](#general-purpose)
@@ -380,7 +380,7 @@ If you have NVIDIA drivers installed, open "NVIDIA X Server Settings"
 3. Enable "Force Composition of Pipeline"
 4. Enable "Force Full Composition of Pipeline"
 
-## Adobe Suit
+## Adobe Suite
 
 The Adobe Suite currently is nonexistant in Linux. There are replacements for it but they will be different.
 
