@@ -14,45 +14,46 @@ Everything is based on my personal experience and preference about the software 
 
 Heres a short list of anchors to quickly travel to your desired location.
 
-- [Greetings Traveller](#greetings-traveller)
-- [Disclaimer](#disclaimer)
-- [Looking for something ?](#looking-for-something-)
-- [Distributions](#distributions)
-- [How to Install](#how-to-install)
-  - [Bootable USB-Drive](#bootable-usb-drive)
-  - [Booting into Live-Mode](#booting-into-live-mode)
-    - [If you know your Motherboard Manufacturer](#if-you-know-your-motherboard-manufacturer)
-    - [If you do not know your Motherboard Manufacturer](#if-you-do-not-know-your-motherboard-manufacturer)
-  - [Installation \[Linux Mint Example\]](#installation-linux-mint-example)
-    - [**BACK UP YOUR DATA ON WINDOWS FIRST**](#back-up-your-data-on-windows-first)
-    - [Back in Live-Mode](#back-in-live-mode)
-  - [Useful Post-Installation Steps \[Linux Mint Focused\]](#useful-post-installation-steps-linux-mint-focused)
-    - [What are those things I mentioned above?](#what-are-those-things-i-mentioned-above)
-      - [System Snapshots](#system-snapshots)
-      - [Driver Manager](#driver-manager)
-      - [Update Manager](#update-manager)
-      - [Firewall](#firewall)
-  - [Further Customization](#further-customization)
-- [Software](#software)
-  - [Software Manager \[Linux Mint\]](#software-manager-linux-mint)
-  - [Terminal](#terminal)
-  - [Installation through Website Visit](#installation-through-website-visit)
-- [How do I troubleshoot things ?](#how-do-i-troubleshoot-things-)
-- [Software List or Replacement for other Software](#software-list-or-replacement-for-other-software)
-  - [Gaming](#gaming)
-    - [Steam](#steam)
-    - [Epic Games Launcher, GOG \& Prime Gaming](#epic-games-launcher-gog--prime-gaming)
-    - [Check game compatibility](#check-game-compatibility)
-    - [Lutris](#lutris)
-    - [NVIDIA Settings](#nvidia-settings)
-  - [Adobe Suite](#adobe-suite)
-  - [Microsoft Office Suite](#microsoft-office-suite)
-  - [Audio Equalizer](#audio-equalizer)
-- [General purpose:](#general-purpose)
-  - [Windows Applications on Linux](#windows-applications-on-linux)
-  - [Searching for Software replacement](#searching-for-software-replacement)
-  - [Issues](#issues)
-    - [Desktop Applications suddenly lagging](#desktop-applications-suddenly-lagging)
+-   [Greetings Traveller](#greetings-traveller)
+-   [Disclaimer](#disclaimer)
+-   [Looking for something ?](#looking-for-something-)
+-   [Distributions](#distributions)
+-   [How to Install](#how-to-install)
+    -   [Bootable USB-Drive](#bootable-usb-drive)
+    -   [Booting into Live-Mode](#booting-into-live-mode)
+        -   [If you know your Motherboard Manufacturer](#if-you-know-your-motherboard-manufacturer)
+        -   [If you do not know your Motherboard Manufacturer](#if-you-do-not-know-your-motherboard-manufacturer)
+    -   [Installation \[Linux Mint Example\]](#installation-linux-mint-example)
+        -   [**BACK UP YOUR DATA ON WINDOWS FIRST**](#back-up-your-data-on-windows-first)
+        -   [Back in Live-Mode](#back-in-live-mode)
+    -   [Useful Post-Installation Steps \[Linux Mint Focused\]](#useful-post-installation-steps-linux-mint-focused)
+        -   [What are those things I mentioned above?](#what-are-those-things-i-mentioned-above)
+            -   [System Snapshots](#system-snapshots)
+            -   [Driver Manager](#driver-manager)
+            -   [Update Manager](#update-manager)
+            -   [Firewall](#firewall)
+    -   [Further Customization](#further-customization)
+-   [Software](#software)
+    -   [Software Manager \[Linux Mint\]](#software-manager-linux-mint)
+    -   [Terminal](#terminal)
+    -   [Installation through Website Visit](#installation-through-website-visit)
+-   [How do I troubleshoot things ?](#how-do-i-troubleshoot-things-)
+-   [Software List or Replacement for other Software](#software-list-or-replacement-for-other-software)
+    -   [Gaming](#gaming)
+        -   [Steam](#steam)
+        -   [Epic Games Launcher, GOG \& Prime Gaming](#epic-games-launcher-gog--prime-gaming)
+        -   [Check game compatibility](#check-game-compatibility)
+        -   [Lutris](#lutris)
+        -   [NVIDIA Settings](#nvidia-settings)
+    -   [Adobe Suite](#adobe-suite)
+    -   [Microsoft Office Suite](#microsoft-office-suite)
+    -   [Audio Equalizer](#audio-equalizer)
+-   [General purpose:](#general-purpose)
+    -   [Windows Applications on Linux](#windows-applications-on-linux)
+    -   [Searching for Software replacement](#searching-for-software-replacement)
+    -   [Issues](#issues)
+        -   [Desktop Applications suddenly lagging](#desktop-applications-suddenly-lagging)
+        -   [(br-connection-profile-unavailable) | Bluetooth after switching to Pipewire not working](#br-connection-profile-unavailable--bluetooth-after-switching-to-pipewire-not-working)
 
 # Distributions
 
@@ -393,7 +394,7 @@ Here is a small table of replacement possibilities:
 | Illustrator    | Inkscape, Vectr, LibreOffice Draw |
 | After Effect   | DaVinci Resole, Blender           |
 
-*DaVinci Resolve includes Blackmagic Fusion which is the After Effect Programm.
+\*DaVinci Resolve includes Blackmagic Fusion which is the After Effect Programm.
 
 If you are looking for other software, you can use this as a copy paste for searching for your software replacement:
 
@@ -444,3 +445,13 @@ Generally you will find a list of replacement.
 Disable Discord hardware acceleration.
 
 Linux Mint: Switch themes back to non 3rd party themes.
+
+### (br-connection-profile-unavailable) | Bluetooth after switching to Pipewire not working
+
+This post provided a working solution for me: [Bluetooth "br-connection-profile-unavailable"](https://askubuntu.com/questions/1479606/bluetooth-br-connection-profile-unavailable-issue-on-upgrade-to-xubuntu-23-04/1480049#1480049)
+
+Shortform:
+
+1. Remove pulseaudio-module-bluetooth
+2. Install libspa-0.2-bluetooth
+3. Restart
